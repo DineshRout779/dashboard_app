@@ -13,7 +13,7 @@ const Sidebar = () => {
       <div className='p-4 md:px-6 space-y-4'>
         <a
           href=''
-          className='block hover:bg-blue-100 hover:text-blue-700 rounded-md p-2'
+          className='block bg-blue-100 text-blue-700 hover:bg-blue-100 hover:text-blue-700 rounded-md p-2'
         >
           <House size={28} />
         </a>
