@@ -10,7 +10,7 @@ const Content = () => {
       <Navbar />
 
       <div className='p-5 md:p-8 bg-gray-100 min-h-[90vh] '>
-        <div className='grid gap-4 grid-cols-1 md:grid-cols-3 mb-8 auto-rows-max'>
+        <div className='grid gap-6 grid-cols-1 md:grid-cols-3 mb-8 auto-rows-max'>
           <QuickCreate />
           <YourGallery />
           <Usage />
