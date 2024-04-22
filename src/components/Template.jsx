@@ -1,12 +1,19 @@
+import { Play } from 'phosphor-react';
+
 /* eslint-disable react/prop-types */
 const Template = ({ template }) => {
   return (
     <div className='flex flex-col justify-between gap-2'>
-      <img
-        src={template?.imgUrl}
-        className='block w-full grow rounded-[4px]'
-        alt=''
-      />
+      <div className='grow relative'>
+        <img
+          src={template?.imgUrl}
+          className='block w-full h-full  rounded-[4px]'
+          alt=''
+        />
+        <button className='bg-white/50 hover:bg-white rounded-md p-1  absolute bottom-2 left-2'>
+          <Play size={12} weight='fill' className='text-[10px]' />
+        </button>
+      </div>
 
       <div>
         <p>{template.title}</p>
